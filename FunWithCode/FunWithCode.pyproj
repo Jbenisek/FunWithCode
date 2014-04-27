@@ -26,6 +26,8 @@
     <Compile Include="HoursXPay.py" />
     <Compile Include="HoursXPaywithGrading.py" />
     <Compile Include="HoursXPaywithGradingandBasicPassword.py" />
+    <Compile Include="HoursXPayWithOverTime.py" />
+    <Compile Include="ScoreToGrade.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
