@@ -43,7 +43,7 @@ while True:
                         except:
                             print "---->Hours or Pay isn't a number or has a $, please remove and retry!<----"
                     else:
-                        print "Too many failed tries"
+                        print "---->Too many failed tries exiting now!<----"
                         break
                 break
             else:
