@@ -27,6 +27,7 @@
     <Compile Include="HoursXPaywithGrading.py" />
     <Compile Include="HoursXPaywithGradingandBasicPassword.py" />
     <Compile Include="HoursXPayWithOverTime.py" />
+    <Compile Include="HowDoYouFeel.py" />
     <Compile Include="ScoreToGrade.py" />
   </ItemGroup>
   <PropertyGroup>
