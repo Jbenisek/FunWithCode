@@ -4,7 +4,7 @@ normalpay = 0.0
 overtime = 0.0
 totalpay = 0.0
 
-def pay(normalpay, totalpay):
+def computepay(normalpay, totalpay):
     if hoursfloated <= 40:
         normalpay = hoursfloated * ratefloated
         return normalpay
@@ -28,4 +28,4 @@ hoursfloated = tryfloat(hours)
 rate = raw_input("Enter Rate:")
 ratefloated = tryfloat(rate)
 
-print pay(normalpay, totalpay)
+print computepay(normalpay, totalpay)
