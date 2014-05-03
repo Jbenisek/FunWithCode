@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a6b4de3e-f77a-46cf-8ec8-3befd0e76148</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HoursXPayWithOverTimeAndFunctions.py</StartupFile>
+    <StartupFile>FunwithZa.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,7 @@
     <Compile Include="HoursXPayWithOverTime.py" />
     <Compile Include="HoursXPayWithOverTimeAndFunctions.py" />
     <Compile Include="HowDoYouFeel.py" />
+    <Compile Include="FunwithZa.py" />
     <Compile Include="ScoreToGrade.py" />
   </ItemGroup>
   <PropertyGroup>
