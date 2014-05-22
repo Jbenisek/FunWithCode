@@ -40,7 +40,7 @@ def small():
 #Start Loop    
 while True:
     #Get user input
-    num = raw_input("Enter a number: ")
+    num = raw_input("Enter a number, type done with finished: ")
     #If user inputs done then break loop
     if num == "done" : break
     
