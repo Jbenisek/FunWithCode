@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a6b4de3e-f77a-46cf-8ec8-3befd0e76148</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Week5.py</StartupFile>
+    <StartupFile>week6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,7 @@
     <Compile Include="FunwithZa.py" />
     <Compile Include="Week5.py" />
     <Compile Include="ScoreToGrade.py" />
+    <Compile Include="week6.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
