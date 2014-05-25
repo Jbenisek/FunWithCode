@@ -33,6 +33,7 @@
     <Compile Include="Week5.py" />
     <Compile Include="ScoreToGrade.py" />
     <Compile Include="week6.py" />
+    <Compile Include="week7.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
