@@ -3,8 +3,9 @@
 largest = None
 smallest = None
 count = 0
+numfloated = 0
 
-def large():
+def large(largest):
     #First Pass
     if largest is None:
         largest = numfloated
@@ -48,23 +49,13 @@ while True:
         numfloated = float(num)
 
         try:
-            #First Pass for None
-            if largest is None:
-                largest = numfloated
-                print "First Pass", largest, numfloated
-                                
-            #Second Pass for larger?
-            elif numfloated > largest:
-                largest = numfloated
-                print "Second Pass", largest, numfloated
-            else:
-            #Wasn't Larger
-                print 'Not larger', largest, numfloated
+            
+            largest = large(largest)
                 
-                
-        except:
+        except Exception, e:
             #Did largest fail?
             print 'largest failed'
+            print e
             
         try:
             #First Pass for None
