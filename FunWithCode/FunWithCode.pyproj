@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a6b4de3e-f77a-46cf-8ec8-3befd0e76148</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>week6.py</StartupFile>
+    <StartupFile>week7b.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,7 @@
     <Compile Include="ScoreToGrade.py" />
     <Compile Include="week6.py" />
     <Compile Include="week7.py" />
+    <Compile Include="week7b.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
