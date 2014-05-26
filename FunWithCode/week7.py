@@ -9,9 +9,8 @@ def fileprint(fileopen, count):
     print count
 
 while True:
-    filename = raw_input("Enter file name: ")
-    if filename == 'done':
-        break
+    filename = raw_input("Enter file name, type 'done' when finished: ")
+    if filename == 'done': break
     else:
         try:
             fileopen = open(filename)
